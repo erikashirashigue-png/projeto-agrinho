@@ -189,3 +189,29 @@ A galeria apresenta imagens relacionadas à jornada produtiva do colorau em pó,
 As imagens são exibidas em formato de carrossel, com navegação manual e rotação automática.
 
 ---
+
+## 🤖 Prompts Genéricos de IA Utilizados
+
+### 🌾 Imagem Hero — Campo de Urucum em Paranacity no Paraná 
+
+```text
+Crie uma imagem realista e educativa de um campo de Urucum em Paranacity, no Paraná, com atmosfera acolhedora, luz natural suave, paisagem agrícola bem cuidada, céu limpo e sensação de conexão entre produção rural, sustentabilidade e futuro. A imagem deve transmitir equilíbrio entre o agro forte e o cuidado com o meio ambiente.
+```
+
+### 🌱 Imagem Campo — Cultivo de Urucum 
+
+```text
+Crie uma imagem de uma lavoura de Urucum em fase de crescimento, mostrando o cultivo no campo, o cuidado com o solo e a importância da agricultura sustentável. A cena deve ter cores naturais, aparência limpa, clima positivo e representar o início da cadeia produtiva do Colorau.
+```
+
+### 🏭 Imagem do Ururcum — Transformação e beneficiamento
+
+```text
+Crie uma imagem representando o processo de transformação do Urucum em Colorau, com elementos que remetam à indústria, tecnologia, beneficiamento de grãos e inovação. A imagem deve mostrar a conexão entre o campo e a indústria, com visual moderno, educativo e relacionado à sustentabilidade.
+```
+
+### 🏙️ Imagem Cidade — Campo e cidade conectados
+
+```text
+Crie uma imagem que represente a conexão entre o campo e a cidade por meio da cadeia produtiva do malte. A cena deve mostrar elementos urbanos integrados à produção agrícola, simbolizando como o agro movimenta a economia, abastece a sociedade e conecta diferentes espaços.
+```
