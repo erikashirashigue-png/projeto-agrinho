@@ -159,7 +159,6 @@ O JavaScript foi utilizado para tornar a página mais dinâmica e interativa. En
 - Exibição da pontuação do usuário;
 - Cards expansíveis sobre sustentabilidade;
 - Menu de acessibilidade com controle de fonte e contraste;
-- Sincronização de acessibilidade com a seção da HQ incorporada.
 
 ---
 
@@ -169,8 +168,8 @@ O site possui um quiz educativo com perguntas relacionadas ao conteúdo apresent
 
 O objetivo do quiz é revisar, de forma leve e interativa, os principais conceitos sobre:
 
-- Cevada;
-- Malte;
+- Processo do Colorau;
+- Colheita;
 - Cadeia produtiva;
 - Sustentabilidade;
 - Conexão entre campo, indústria e cidade.
@@ -181,10 +180,10 @@ Ao final, o usuário recebe uma pontuação e uma mensagem de feedback de acordo
 
 ## 🖼️ Galeria de Imagens
 
-A galeria apresenta imagens relacionadas à jornada produtiva da cevada ao malte, mostrando:
+A galeria apresenta imagens relacionadas à jornada produtiva do colorau em pó, mostrando:
 
 - O cultivo no campo;
-- A transformação da cevada em malte;
+- A transformação do Colorau em tempero;
 - A conexão entre o campo e a cidade.
 
 As imagens são exibidas em formato de carrossel, com navegação manual e rotação automática.
