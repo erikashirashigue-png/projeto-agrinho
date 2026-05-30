@@ -206,7 +206,7 @@ Crie uma imagem de uma lavoura de Urucum em fase de crescimento, mostrando o cul
 
 ### 🏭 Imagem do Ururcum — Transformação e beneficiamento
 
-```text
+```texthttps://share.google/yubdPsZfZ8Hf2c4x2
 Crie uma imagem representando o processo de transformação do Urucum em Colorau, com elementos que remetam à indústria, tecnologia, beneficiamento de grãos e inovação. A imagem deve mostrar a conexão entre o campo e a indústria, com visual moderno, educativo e relacionado à sustentabilidade.
 ```
 
