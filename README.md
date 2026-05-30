@@ -200,7 +200,7 @@ Crie uma imagem realista e educativa de um campo de Urucum em Paranacity, no Par
 
 ### 🌱 Imagem Campo — Cultivo de Urucum 
 
-```text
+```texthttps://chatgpt.com/s/m_6a1b7271a96c8191a969c4e8d8ea6c92
 Crie uma imagem de uma lavoura de Urucum em fase de crescimento, mostrando o cultivo no campo, o cuidado com o solo e a importância da agricultura sustentável. A cena deve ter cores naturais, aparência limpa, clima positivo e representar o início da cadeia produtiva do Colorau.
 ```
 
