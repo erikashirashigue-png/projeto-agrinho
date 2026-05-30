@@ -212,6 +212,6 @@ Crie uma imagem representando o processo de transformação do Urucum em Colorau
 
 ### 🏙️ Imagem Cidade — Campo e cidade conectados
 
-```text
+```texthttps://chatgpt.com/s/m_6a1b736c9f3881919f79cac746b1bd81
 Crie uma imagem que represente a conexão entre o campo e a cidade por meio da cadeia produtiva do malte. A cena deve mostrar elementos urbanos integrados à produção agrícola, simbolizando como o agro movimenta a economia, abastece a sociedade e conecta diferentes espaços.
 ```
