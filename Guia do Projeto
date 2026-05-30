@@ -81,3 +81,17 @@ value="certo"
 ```
 
 As alternativas incorretas usam:
+
+```html
+value="errado"
+```
+
+### Mudar Mensagens De Resultado Do Quiz
+
+Abra `script.js` e procure por:
+
+```js
+const quizFeedbacks = {
+```
+
+Ali ficam as mensagens exibidas conforme a pontuação.
