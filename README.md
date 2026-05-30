@@ -79,3 +79,114 @@ O projeto foi desenvolvido utilizando apenas tecnologias básicas de front-end:
 └── HQ/
     └── hq.html
 ```
+## ▶️ Como Executar o Projeto
+
+Para visualizar o projeto localmente:
+
+1. Baixe ou clone este repositório;
+2. Abra a pasta do projeto em seu computador;
+3. Abra o arquivo `index.html` em um navegador de internet;
+4. Navegue pelas seções do site utilizando o menu principal.
+
+Também é possível acessar o projeto publicado pelo **GitHub Pages** ou **Vercel**, por meio do link disponível na seção **About** deste repositório.
+
+---
+
+## ♿ Acessibilidade
+
+O projeto inclui recursos de acessibilidade para melhorar a experiência dos usuários:
+
+- 🔠 Botão para aumentar o tamanho da fonte;
+- 🔡 Botão para diminuir o tamanho da fonte;
+- 🌓 Modo de alto contraste;
+- 🖼️ Textos alternativos em imagens;
+- 🧱 Uso de elementos semânticos do HTML;
+- 🧭 Navegação organizada por seções;
+- 🎯 Botões com rótulos acessíveis;
+- 📱 Interface responsiva para diferentes dispositivos;
+- ⌨️ Fechamento de menus com a tecla `Escape`.
+
+Esses recursos tornam o site mais inclusivo e facilitam o acesso ao conteúdo por diferentes perfis de usuários.
+
+---
+
+## 🌿 Sustentabilidade
+
+O conteúdo do site aborda práticas relacionadas ao equilíbrio entre produção e meio ambiente, como:
+
+- 🌱 Manejo responsável do solo;
+- 💧 Uso consciente da água;
+- 🚜 Valorização da produção agrícola regional;
+- 🏭 Integração entre campo, indústria e cidade;
+- 🔬 Uso da tecnologia para melhorar processos produtivos;
+- 🌎 Responsabilidade ambiental na cadeia produtiva;
+- 🤝 Conexão entre desenvolvimento econômico e preservação ambiental.
+
+A proposta reforça que o futuro do agro depende de escolhas responsáveis, inovação e cuidado com os recursos naturais.
+
+---
+
+## 🧠 Conceitos de Programação Aplicados
+
+Durante o desenvolvimento do projeto, foram aplicados conceitos importantes de programação front-end, como:
+
+- Estruturação semântica com HTML;
+- Estilização com CSS externo;
+- Uso de variáveis CSS;
+- Responsividade com media queries;
+- Manipulação do DOM com JavaScript;
+- Eventos de clique;
+- Funções;
+- Arrays;
+- Objetos;
+- Condicionais;
+- Controle de estado de elementos interativos;
+- Interatividade com o usuário;
+- Organização de código em arquivos separados.
+
+---
+
+## 🧩 Principais Interações Implementadas
+
+O JavaScript foi utilizado para tornar a página mais dinâmica e interativa. Entre as principais interações estão:
+
+- Menu responsivo para dispositivos móveis;
+- Menu “Explorar” com abertura e fechamento;
+- Carrossel de imagens com botões de navegação;
+- Rotação automática da galeria;
+- Botão de curiosidades aleatórias;
+- Quiz com verificação de respostas;
+- Exibição da pontuação do usuário;
+- Cards expansíveis sobre sustentabilidade;
+- Menu de acessibilidade com controle de fonte e contraste;
+- Sincronização de acessibilidade com a seção da HQ incorporada.
+
+---
+
+## 🎮 Quiz Interativo
+
+O site possui um quiz educativo com perguntas relacionadas ao conteúdo apresentado.
+
+O objetivo do quiz é revisar, de forma leve e interativa, os principais conceitos sobre:
+
+- Cevada;
+- Malte;
+- Cadeia produtiva;
+- Sustentabilidade;
+- Conexão entre campo, indústria e cidade.
+
+Ao final, o usuário recebe uma pontuação e uma mensagem de feedback de acordo com seu desempenho.
+
+---
+
+## 🖼️ Galeria de Imagens
+
+A galeria apresenta imagens relacionadas à jornada produtiva da cevada ao malte, mostrando:
+
+- O cultivo no campo;
+- A transformação da cevada em malte;
+- A conexão entre o campo e a cidade.
+
+As imagens são exibidas em formato de carrossel, com navegação manual e rotação automática.
+
+---
