@@ -1,0 +1,83 @@
+# Guia do Projeto
+
+Este guia ajuda quem está aprendendo a encontrar rapidamente onde mudar cada parte do site.
+
+## Estrutura Dos Arquivos
+
+`index.html`
+
+Guarda a estrutura e o conteúdo da página principal. Aqui ficam os textos, seções, perguntas do quiz, imagens usadas no HTML, iframe da HQ e rodapé.
+
+`style.css`
+
+Guarda a aparência do site. Aqui ficam cores, tamanhos, espaçamentos, responsividade, cards, botões, menu, carrossel e modo de alto contraste.
+
+`script.js`
+
+Guarda os comportamentos interativos. Aqui ficam menu mobile, acessibilidade, carrossel, curiosidades, quiz, animação ao rolar e cards expansivos.
+
+`HQ/hq.html`
+
+Guarda a história em quadrinhos exibida dentro do iframe da página principal.
+
+## Onde Alterar
+
+### Mudar Cores Do Site
+
+Abra `style.css` e altere apenas o bloco `:root`, no início do arquivo.
+
+Principais variáveis:
+
+- `--color-bg`: fundo principal do site.
+- `--color-primary`: verde principal.
+- `--color-primary-dark`: verde mais escuro.
+- `--color-accent`: dourado usado nos botões e destaques.
+- `--color-text`: cor principal dos textos.
+- `--color-surface-solid`: fundo dos blocos/cards.
+
+### Mudar Textos Da Página
+
+Abra `index.html` e procure pelo texto que deseja alterar com `Ctrl + F`.
+
+Exemplo: para mudar o título da primeira tela, procure por `<h1>`.
+
+### Mudar Imagens Do Carrossel
+
+Abra `script.js` e procure por:
+
+```js
+const carouselItems = [
+```
+
+Cada item tem:
+
+- `src`: caminho da imagem.
+- `alt`: descrição da imagem para acessibilidade.
+- `title`: título exibido abaixo da imagem.
+- `description`: texto explicativo.
+
+### Mudar Curiosidades
+
+Abra `script.js` e procure por:
+
+```js
+const facts = [
+```
+
+Cada frase dentro da lista pode ser trocada ou ampliada.
+
+### Mudar Respostas Do Quiz
+
+As perguntas e alternativas ficam no `index.html`, dentro da seção:
+
+```html
+<section id="quiz">
+```
+
+A alternativa correta usa:
+
+```html
+value="certo"
+```
+
+As alternativas incorretas usam:
