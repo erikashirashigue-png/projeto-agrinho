@@ -194,7 +194,7 @@ As imagens são exibidas em formato de carrossel, com navegação manual e rota�
 
 ### 🌾 Imagem Hero — Campo de Urucum em Paranacity no Paraná 
 
-```text
+```texthttps://chatgpt.com/s/m_6a1b71d7e44c819184fa7f0765ded9b3
 Crie uma imagem realista e educativa de um campo de Urucum em Paranacity, no Paraná, com atmosfera acolhedora, luz natural suave, paisagem agrícola bem cuidada, céu limpo e sensação de conexão entre produção rural, sustentabilidade e futuro. A imagem deve transmitir equilíbrio entre o agro forte e o cuidado com o meio ambiente.
 ```
 
@@ -206,7 +206,7 @@ Crie uma imagem de uma lavoura de Urucum em fase de crescimento, mostrando o cul
 
 ### 🏭 Imagem do Ururcum — Transformação e beneficiamento
 
-```texthttps://share.google/yubdPsZfZ8Hf2c4x2
+```text
 Crie uma imagem representando o processo de transformação do Urucum em Colorau, com elementos que remetam à indústria, tecnologia, beneficiamento de grãos e inovação. A imagem deve mostrar a conexão entre o campo e a indústria, com visual moderno, educativo e relacionado à sustentabilidade.
 ```
 
