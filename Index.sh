@@ -1,130 +1,700 @@
-```html
-<title>Do Campo à Mesa</title>
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Do Campo à Mesa</title>
+
+<meta
+ name="description"
+ content="Projeto sobre a produção sustentável do colorau e a conexão entre agro, indústria, sustentabilidade e sociedade."
+/>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <header class="header" id="topo">
+    <div class="header-inner">
+
 ```
----
+  <a class="logo" href="#inicio" aria-label="Voltar ao início">
+    <img src="./img/logo.png" alt="Logo Agrinho" />
+  </a>
 
-```html
-<meta name="description" content="Projeto sobre a jornada do urucum ao colorau, conectando agro, tecnologia, sustentabilidade e indústria." />
-```
----
+  <div class="site-title">
+    Do Campo à Mesa: A Produção Sustentável do Colorau e sua Importância para a Sociedade
+  </div>
 
-```html
-<div class="site-title">Do Campo à Mesa: A Jornada do Urucum ao Colorau</div>
-```
----
+  <nav class="navbar" aria-label="Navegação principal">
 
-```html
-<strong>Cultivo</strong>
-<span>Produção agrícola com cuidado ao solo e ao meio ambiente.</span>
-```
----
+    <div class="nav-desktop">
+      <div class="nav-more">
 
-```html
-<strong>Indústria</strong>
-<span>Beneficiamento do urucum e produção do colorau.</span>
-```
----
+        <button
+          class="nav-more-btn"
+          id="nav-more-btn"
+          type="button"
+          aria-expanded="false"
+          aria-controls="nav-more-panel"
+        >
+          <span>Explorar</span>
+          <span class="nav-more-arrow" aria-hidden="true">▾</span>
+        </button>
 
-```html
-<strong>Sustentabilidade</strong>
-<span>Equilíbrio entre agro forte, economia e preservação ambiental.</span>
-```
----
+        <div class="nav-more-panel" id="nav-more-panel">
+          <a href="#jornada">Jornada</a>
+          <a href="#galeria">Galeria</a>
+          <a href="#curiosidades">Curiosidades</a>
+          <a href="#quiz">Quiz</a>
+          <a href="#sustentabilidade">Sustentabilidade</a>
+          <a href="#contato">Contato</a>
+        </div>
 
-```html
-alt="Lavoura de urucum"
-```
+      </div>
+    </div>
 
----
+    <button
+      class="hamburger"
+      id="menu-toggle"
+      aria-label="Abrir menu"
+      aria-controls="nav-links"
+      aria-expanded="false"
+    >
+      ☰
+    </button>
 
-```html
-<h2>Da produção ao colorau</h2>
-```
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#jornada">Jornada</a></li>
+      <li><a href="#galeria">Galeria</a></li>
+      <li><a href="#curiosidades">Curiosidades</a></li>
+      <li><a href="#quiz">Quiz</a></li>
+      <li><a href="#sustentabilidade">Sustentabilidade</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
 
----
-
-```html
-<h3>Cultivo do urucum</h3>
-<p>O urucum é cultivado com atenção ao solo, ao clima e às práticas sustentáveis de manejo agrícola.</p>
-```
-
-```html
-<h3>Beneficiamento</h3>
-<p>Após a colheita, as sementes passam por processos industriais que transformam o urucum em colorau.</p>
-```
-
-```html
-<h3>Distribuição e consumo</h3>
-<p>O colorau chega aos mercados, cozinhas e indústrias, conectando o campo ao cotidiano das pessoas.</p>
-```
-
----
-
-
-```html
-<h2>Da lavoura ao colorau</h2>
-```
-
----
-
-```html
-O urucum é uma planta nativa da América do Sul e suas sementes são usadas na produção do colorau natural.
-```
----
-
-```html
-<p><strong>1.</strong> Qual planta é a base da cadeia produtiva apresentada no site?</p>
-<label><input type="radio" name="q1" value="errado" /> Soja</label>
-<label><input type="radio" name="q1" value="certo" /> Urucum</label>
-<label><input type="radio" name="q1" value="errado" /> Trigo</label>
-```
-
----
-
-```html
-<p><strong>2.</strong> O principal produto obtido do urucum é:</p>
-<label><input type="radio" name="q2" value="errado" /> Farinha</label>
-<label><input type="radio" name="q2" value="certo" /> Colorau</label>
-<label><input type="radio" name="q2" value="errado" /> Açúcar</label>
+  </nav>
+</div>
 ```
 
----
+  </header>
 
-```html
-<p><strong>3.</strong> A cadeia produtiva do urucum conecta:</p>
-<label><input type="radio" name="q3" value="errado" /> Apenas o campo</label>
-<label><input type="radio" name="q3" value="certo" /> Agricultura, indústria e sociedade</label>
-<label><input type="radio" name="q3" value="errado" /> Somente o comércio urbano</label>
+<button
+id="accessibility-btn"
+class="accessibility-fixed"
+aria-label="Menu de acessibilidade"
+aria-expanded="false"
+
+>
+
+```
+A+
 ```
 
----
+  </button>
 
-```html
-<p><strong>4.</strong> Uma prática sustentável importante no cultivo do urucum é:</p>
-<label><input type="radio" name="q4" value="certo" /> Preservar o solo e usar água de forma consciente</label>
-<label><input type="radio" name="q4" value="errado" /> Descartar resíduos sem tratamento</label>
-<label><input type="radio" name="q4" value="errado" /> Eliminar toda tecnologia agrícola</label>
+  <div
+    id="accessibility-menu"
+    class="accessibility-menu hidden"
+    role="dialog"
+    aria-label="Menu de acessibilidade"
+  >
+    <button type="button" data-accessibility-action="increase-font">
+      Aumentar fonte
+    </button>
+
+```
+<button type="button" data-accessibility-action="decrease-font">
+  Diminuir fonte
+</button>
+
+<button type="button" data-accessibility-action="toggle-contrast">
+  Alto contraste
+</button>
 ```
 
----
+  </div>
 
-```html
-<p><strong>5.</strong> O colorau mostra a conexão entre campo e cidade porque:</p>
-<label><input type="radio" name="q5" value="errado" /> É produzido apenas na cidade</label>
-<label><input type="radio" name="q5" value="certo" /> O agro abastece indústrias, mercados e consumidores</label>
-<label><input type="radio" name="q5" value="errado" /> Não depende da agricultura</label>
+  <main>
+
+```
+<section id="inicio" class="hero-section reveal">
+
+  <div class="hero-shell">
+
+    <div class="hero-copy">
+
+      <span class="eyebrow">Do campo à mesa</span>
+
+      <h1>
+        A produção sustentável do colorau conecta agricultura,
+        tecnologia, indústria e sociedade.
+      </h1>
+
+      <p>
+        Do cultivo do urucum ao colorau presente na alimentação,
+        a cadeia produtiva mostra como o agro fortalece a economia,
+        gera empregos e abastece a sociedade.
+      </p>
+
+      <p>
+        A produção sustentável valoriza o cuidado com o solo,
+        o uso consciente dos recursos naturais e a integração
+        entre campo e cidade.
+      </p>
+
+      <div class="hero-actions">
+        <a class="action-btn" href="#jornada">
+          Conhecer a jornada
+        </a>
+
+        <a class="secondary-btn" href="#sustentabilidade">
+          Ver sustentabilidade
+        </a>
+      </div>
+
+      <div class="hero-points">
+
+        <div class="hero-point">
+          <strong>Campo</strong>
+          <span>
+            Cultivo responsável e valorização do produtor rural.
+          </span>
+        </div>
+
+        <div class="hero-point">
+          <strong>Indústria</strong>
+          <span>
+            Transformação do urucum em colorau com tecnologia.
+          </span>
+        </div>
+
+        <div class="hero-point">
+          <strong>Sociedade</strong>
+          <span>
+            O agro abastece mercados, cozinhas e famílias.
+          </span>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="hero-visual">
+
+      <div class="hero-image-card">
+
+        <img
+          src="./img/Hero.png"
+          alt="Lavoura de urucum"
+        />
+
+        <div class="hero-image-overlay">
+          <span>Campo, indústria e sociedade conectados</span>
+
+          <strong>
+            O urucum produzido no campo se transforma em colorau
+            e chega à mesa das pessoas.
+          </strong>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="jornada" class="content-section reveal">
+
+  <div class="section-heading">
+
+    <span class="section-tag">
+      Jornada produtiva
+    </span>
+
+    <h2>
+      Do cultivo ao colorau
+    </h2>
+
+    <p>
+      O processo produtivo do urucum mostra como agro,
+      tecnologia e sustentabilidade trabalham juntos.
+    </p>
+
+  </div>
+
+  <div class="process-grid">
+
+    <article class="surface-block process-card">
+
+      <div class="process-number">01</div>
+
+      <h3>Cultivo sustentável</h3>
+
+      <p>
+        O urucum é cultivado com cuidado ao solo,
+        planejamento agrícola e práticas sustentáveis.
+      </p>
+
+    </article>
+
+    <article class="surface-block process-card">
+
+      <div class="process-number">02</div>
+
+      <h3>Beneficiamento</h3>
+
+      <p>
+        Após a colheita, o urucum passa por processos
+        industriais que transformam suas sementes em colorau.
+      </p>
+
+    </article>
+
+    <article class="surface-block process-card">
+
+      <div class="process-number">03</div>
+
+      <h3>Chegada à sociedade</h3>
+
+      <p>
+        O colorau abastece mercados, cozinhas e indústrias,
+        conectando o campo ao cotidiano urbano.
+      </p>
+
+    </article>
+
+  </div>
+</section>
+
+<section id="galeria" class="content-section reveal">
+
+  <div class="section-heading">
+
+    <span class="section-tag">
+      Galeria
+    </span>
+
+    <h2>
+      Da lavoura ao produto final
+    </h2>
+
+    <p>
+      Imagens que representam a produção sustentável do colorau.
+    </p>
+
+  </div>
+
+  <div class="surface-block gallery-block">
+
+    <div class="carousel-wrapper">
+
+      <img
+        class="carousel-preview preview-left"
+        id="carousel-preview-left"
+        alt=""
+        aria-hidden="true"
+      />
+
+      <img
+        class="carousel-preview preview-right"
+        id="carousel-preview-right"
+        alt=""
+        aria-hidden="true"
+      />
+
+      <button
+        class="carousel-btn left"
+        type="button"
+        data-carousel-direction="-1"
+        aria-label="Imagem anterior"
+      >
+        &#10094;
+      </button>
+
+      <div class="carousel-slide" id="carousel-slide"></div>
+
+      <button
+        class="carousel-btn right"
+        type="button"
+        data-carousel-direction="1"
+        aria-label="Próxima imagem"
+      >
+        &#10095;
+      </button>
+
+    </div>
+
+    <div class="carousel-caption">
+
+      <div>
+        <h3 id="carousel-title"></h3>
+        <p id="carousel-description"></p>
+      </div>
+
+      <div
+        class="carousel-dots"
+        id="carousel-dots"
+        aria-label="Indicadores do carrossel"
+      ></div>
+
+    </div>
+  </div>
+</section>
+
+<section id="curiosidades" class="content-section reveal">
+
+  <div class="section-heading">
+
+    <span class="section-tag">
+      Curiosidades
+    </span>
+
+    <h2>
+      Você sabia?
+    </h2>
+
+    <p>
+      Informações importantes sobre o urucum,
+      o colorau e a sustentabilidade no agro.
+    </p>
+
+  </div>
+
+  <div class="surface-block info-box">
+
+    <p id="fact-text">
+      O urucum é uma planta nativa da América do Sul
+      utilizada há séculos como corante natural.
+    </p>
+
+    <button
+      id="fact-btn"
+      class="action-btn"
+      type="button"
+    >
+      Mostrar outra curiosidade
+    </button>
+
+  </div>
+</section>
+
+<section id="quiz" class="content-section reveal">
+
+  <div class="section-heading">
+
+    <span class="section-tag">
+      Interatividade
+    </span>
+
+    <h2>
+      Quiz: teste seus conhecimentos
+    </h2>
+
+    <p>
+      Descubra quanto você aprendeu sobre
+      a produção sustentável do colorau.
+    </p>
+
+  </div>
+
+  <form id="quiz-form" class="surface-block quiz-form">
+
+    <div class="quiz-question">
+
+      <p>
+        <strong>1.</strong>
+        Qual planta é utilizada na produção do colorau?
+      </p>
+
+      <label>
+        <input type="radio" name="q1" value="errado" />
+        Milho
+      </label>
+
+      <label>
+        <input type="radio" name="q1" value="certo" />
+        Urucum
+      </label>
+
+      <label>
+        <input type="radio" name="q1" value="errado" />
+        Soja
+      </label>
+
+    </div>
+
+    <div class="quiz-question">
+
+      <p>
+        <strong>2.</strong>
+        O colorau é produzido a partir:
+      </p>
+
+      <label>
+        <input type="radio" name="q2" value="errado" />
+        Das folhas
+      </label>
+
+      <label>
+        <input type="radio" name="q2" value="certo" />
+        Das sementes do urucum
+      </label>
+
+      <label>
+        <input type="radio" name="q2" value="errado" />
+        Das raízes
+      </label>
+
+    </div>
+
+    <div class="quiz-question">
+
+      <p>
+        <strong>3.</strong>
+        A produção sustentável busca:
+      </p>
+
+      <label>
+        <input type="radio" name="q3" value="errado" />
+        Aumentar desperdícios
+      </label>
+
+      <label>
+        <input type="radio" name="q3" value="certo" />
+        Produzir respeitando o meio ambiente
+      </label>
+
+      <label>
+        <input type="radio" name="q3" value="errado" />
+        Eliminar o uso da tecnologia
+      </label>
+
+    </div>
+
+    <div class="quiz-question">
+
+      <p>
+        <strong>4.</strong>
+        O colorau conecta campo e cidade porque:
+      </p>
+
+      <label>
+        <input type="radio" name="q4" value="certo" />
+        O agro abastece a sociedade
+      </label>
+
+      <label>
+        <input type="radio" name="q4" value="errado" />
+        Só é utilizado no campo
+      </label>
+
+      <label>
+        <input type="radio" name="q4" value="errado" />
+        Não depende da agricultura
+      </label>
+
+    </div>
+
+    <button
+      type="submit"
+      class="action-btn quiz-submit-btn"
+    >
+      Ver resultado
+    </button>
+
+  </form>
+
+  <div
+    id="quiz-result"
+    class="surface-block quiz-result"
+    aria-live="polite"
+  ></div>
+
+</section>
+
+<section id="sustentabilidade" class="content-section reveal">
+
+  <div class="section-heading">
+
+    <span class="section-tag">
+      Sustentabilidade
+    </span>
+
+    <h2>
+      Agro forte e futuro sustentável
+    </h2>
+
+    <p>
+      Produzir com responsabilidade significa unir
+      desenvolvimento econômico e preservação ambiental.
+    </p>
+
+  </div>
+
+  <div class="cards-grid">
+
+    <article class="info-card expandable-card">
+
+      <button
+        class="card-toggle"
+        type="button"
+        aria-expanded="false"
+      >
+        <span>Produção responsável</span>
+        <span class="card-icon">+</span>
+      </button>
+
+      <div class="card-content">
+        <p>
+          O cultivo sustentável do urucum valoriza o cuidado
+          com o solo e o planejamento agrícola.
+        </p>
+      </div>
+
+    </article>
+
+    <article class="info-card expandable-card">
+
+      <button
+        class="card-toggle"
+        type="button"
+        aria-expanded="false"
+      >
+        <span>Equilíbrio ambiental</span>
+        <span class="card-icon">+</span>
+      </button>
+
+      <div class="card-content">
+        <p>
+          O uso consciente da água e a redução de desperdícios
+          ajudam a preservar os recursos naturais.
+        </p>
+      </div>
+
+    </article>
+
+    <article class="info-card expandable-card">
+
+      <button
+        class="card-toggle"
+        type="button"
+        aria-expanded="false"
+      >
+        <span>Futuro sustentável</span>
+        <span class="card-icon">+</span>
+      </button>
+
+      <div class="card-content">
+        <p>
+          Agro, tecnologia e sustentabilidade caminham juntos
+          para fortalecer o futuro da sociedade.
+        </p>
+      </div>
+
+    </article>
+
+  </div>
+</section>
+
+<section id="contato" class="content-section reveal">
+
+  <div class="section-heading">
+    <span class="section-tag">Contato</span>
+    <h2>Responsável pelo projeto</h2>
+  </div>
+
+  <div class="surface-block contact-card-professional">
+
+    <h3>Willian Schön Lopes</h3>
+
+    <div class="contact-info-grid">
+
+      <div class="contact-info-item">
+        <span class="contact-label">Projeto</span>
+        <strong>Agrinho 2026</strong>
+      </div>
+
+      <div class="contact-info-item">
+        <span class="contact-label">E-mail</span>
+
+        <a href="mailto:lopes.willian@escola.pr.gov.br">
+          lopes.willian@escola.pr.gov.br
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
 ```
 
----
+  </main>
 
-```html
-<p>Produzir urucum com qualidade exige manejo responsável, planejamento agrícola e cuidado com os recursos naturais.</p>
+  <footer>
+
+```
+<div class="footer-inner">
+
+  <p class="footer-copy">
+    &copy; 2026 - Projeto Agrinho | Produção Sustentável do Colorau
+  </p>
+
+  <div class="footer-right-cluster">
+
+    <div
+      class="footer-logos"
+      aria-label="Logos institucionais"
+    >
+
+      <img
+        src="./img/SEED - Educação - Horizontal_OUTLINE _NEGATIVA.png"
+        alt="Logo SEED"
+        class="footer-logo footer-logo-nre"
+      />
+
+      <img
+        src="./img/ProgramacaoParana_logo-vertical-mono-branca.png"
+        alt="Logo da Programação Paraná"
+        class="footer-logo footer-logo-programacao"
+      />
+
+    </div>
+
+    <div class="social-links">
+
+      <a
+        href="https://github.com/schonlopes"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          src="./img/github.png"
+          alt="GitHub"
+          class="social-icon"
+        />
+      </a>
+
+      <a
+        href="https://www.instagram.com/schonlopes"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          src="./img/instagram.png"
+          alt="Instagram"
+          class="social-icon"
+        />
+      </a>
+
+    </div>
+  </div>
+</div>
 ```
 
-```html
-<p>O equilíbrio ambiental depende do uso consciente da água, da preservação do solo e da redução de desperdícios.</p>
-```
+  </footer>
 
-```html
-<p>O futuro sustentável nasce da união entre agro forte, inovação tecnológica e respeito ao meio ambiente.</p>
-```
+  <script src="script.js"></script>
+
+</body>
+</html>
