@@ -1,36 +1,34 @@
 ```html
 <title>Do Campo à Mesa</title>
 ```
-
 ---
 
 ```html
 <meta name="description" content="Projeto sobre a jornada do urucum ao colorau, conectando agro, tecnologia, sustentabilidade e indústria." />
 ```
-
 ---
 
 ```html
 <div class="site-title">Do Campo à Mesa: A Jornada do Urucum ao Colorau</div>
 ```
-
 ---
 
 ```html
 <strong>Cultivo</strong>
 <span>Produção agrícola com cuidado ao solo e ao meio ambiente.</span>
 ```
+---
 
 ```html
 <strong>Indústria</strong>
 <span>Beneficiamento do urucum e produção do colorau.</span>
 ```
+---
 
 ```html
 <strong>Sustentabilidade</strong>
 <span>Equilíbrio entre agro forte, economia e preservação ambiental.</span>
 ```
-
 ---
 
 ```html
@@ -72,6 +70,7 @@ alt="Lavoura de urucum"
 ```html
 O urucum é uma planta nativa da América do Sul e suas sementes são usadas na produção do colorau natural.
 ```
+---
 
 ```html
 <p><strong>1.</strong> Qual planta é a base da cadeia produtiva apresentada no site?</p>
