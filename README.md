@@ -12,7 +12,7 @@ Projeto desenvolvido para o **Concurso Agrinho 2026 – Categoria Programação*
 
 ## 📌 Sobre o Projeto
 
-O projeto **“Do Campo ao Copo: A Jornada do Malte em Guarapuava”** apresenta, de forma visual, interativa e educativa, a trajetória da **cevada**, desde o cultivo no campo até sua transformação em **malte** e sua chegada à cidade.
+O projeto **“Do Campo ao Copo: A Jornada do Malte em Paranacity”** apresenta, de forma visual, interativa e educativa, a trajetória da **cevada**, desde o cultivo no campo até sua transformação em **malte** e sua chegada à cidade.
 
 A proposta mostra como o **agronegócio**, a **tecnologia**, a **indústria**, a **sustentabilidade** e a **vida urbana** estão conectados em uma mesma cadeia produtiva.
 
